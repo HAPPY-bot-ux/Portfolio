@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | Happy Ndlovu</title>
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-950 text-gray-100 font-sans">
+
+<!-- ================= HEADER ================= -->
+<header class="bg-gray-900 border-b border-gray-800 sticky top-0 z-50">
+  <nav class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+    <h1 class="text-xl font-bold text-indigo-400">Happy Ndlovu</h1>
+    <ul class="hidden md:flex gap-6 text-sm">
+      <li><a href="index.html" class="hover:text-indigo-400">Home</a></li>
+      <li><a href="about.html" class="hover:text-indigo-400">About</a></li>
+      <li><a href="skills.html" class="hover:text-indigo-400">Skills</a></li>
+      <li><a href="projects.html" class="hover:text-indigo-400">Projects</a></li>
+      <li><a href="experience.html" class="hover:text-indigo-400">Experience</a></li>
+      <li><a href="contact.html" class="hover:text-indigo-400 text-indigo-400 font-semibold">Contact</a></li>
+      <li>
+        <a href="hire.html" class="bg-indigo-500 px-4 py-2 rounded-md hover:bg-indigo-600">Hire Me</a>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+<main class="max-w-7xl mx-auto px-6 py-16">
+
+<!-- ================= HERO ================= -->
+<section class="grid md:grid-cols-2 gap-12 items-center mb-20">
+  <div>
+    <h2 class="text-4xl font-bold mb-6">Contact Me</h2>
+    <p class="text-gray-400 mb-6 leading-relaxed">
+      I’d love to hear from you! Whether it’s a project, a collaboration, or just a hello, 
+      send me a message and I’ll get back to you as soon as possible.
+    </p>
+    <p class="text-gray-400 mb-6 leading-relaxed">
+      Fill out the form and let’s start building something amazing together.
+    </p>
+  </div>
+  <div class="flex justify-center md:justify-end">
+    <img src="https://images.unsplash.com/photo-1603415526960-f7e0328c19f1" 
+         alt="Contact" 
+         class="rounded-2xl shadow-2xl w-full max-w-sm object-cover">
+  </div>
+</section>
+
+<!-- ================= CONTACT FORM ================= -->
+<section class="py-16 border-t border-gray-800">
+  <h3 class="text-3xl font-bold mb-12 text-center">Send a Message</h3>
+  <form class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+    <input type="text" name="name" placeholder="Name" 
+           class="bg-gray-900 p-4 rounded-xl border border-gray-800 focus:ring-2 focus:ring-indigo-500 outline-none" required>
+    <input type="email" name="email" placeholder="Email" 
+           class="bg-gray-900 p-4 rounded-xl border border-gray-800 focus:ring-2 focus:ring-indigo-500 outline-none" required>
+    <textarea name="message" rows="6" placeholder="Message" 
+              class="bg-gray-900 p-4 rounded-xl border border-gray-800 focus:ring-2 focus:ring-indigo-500 outline-none md:col-span-2" required></textarea>
+    <button type="submit" 
+            class="bg-indigo-500 px-6 py-3 rounded-xl hover:bg-indigo-600 transition md:col-span-2 text-lg font-medium">
+      Send Message
+    </button>
+  </form>
+</section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="border-t border-gray-800 bg-gray-900">
+  <div class="max-w-7xl mx-auto px-6 py-8 text-center text-sm text-gray-500">
+    © 2026 Happy Ndlovu · Software Developer · Portfolio
+  </div>
+</footer>
+
+</body>
+</html>
